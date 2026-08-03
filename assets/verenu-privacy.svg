@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" role="img" aria-labelledby="title desc">
+  <title id="title">Verenu privacy model</title>
+  <desc id="desc">Your keys, settings, history, and local transcripts stay on your device. Only the data needed for your selected provider leaves it.</desc>
+  <defs>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="7" stdDeviation="9" flood-color="#594740" flood-opacity=".12"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="220" rx="26" fill="#2b2422"/>
+  <text x="44" y="48" fill="#fffaf2" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">Privacy you can explain</text>
+  <text x="44" y="73" fill="#d8c8be" font-family="Segoe UI, Arial, sans-serif" font-size="13">Verenu keeps the boundary visible: local by default, explicit when data leaves.</text>
+
+  <g transform="translate(44 101)" filter="url(#softShadow)">
+    <rect width="492" height="86" rx="16" fill="#fffaf2"/>
+    <circle cx="36" cy="43" r="22" fill="#d8e6e2"/>
+    <path d="M36 31a9 9 0 0 0-9 9v6h18v-6a9 9 0 0 0-9-9zm-13 15h26v19H23z" fill="none" stroke="#376d6a" stroke-width="3" stroke-linejoin="round"/>
+    <circle cx="36" cy="54" r="3" fill="#376d6a"/>
+    <text x="76" y="37" fill="#2b2422" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">Stays on your device</text>
+    <text x="76" y="59" fill="#7e7266" font-family="Segoe UI, Arial, sans-serif" font-size="12">Keys, settings, history, dictionary, snippets, and local logs.</text>
+  </g>
+
+  <g transform="translate(664 101)" filter="url(#softShadow)">
+    <rect width="492" height="86" rx="16" fill="#fffaf2"/>
+    <circle cx="36" cy="43" r="22" fill="#f5d4c5"/>
+    <path d="M22 51h28M26 51V38h20v13M30 38v-7h12v7M50 42h8" fill="none" stroke="#a54532" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="76" y="37" fill="#2b2422" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">Leaves only by your choice</text>
+    <text x="76" y="59" fill="#7e7266" font-family="Segoe UI, Arial, sans-serif" font-size="12">Audio or transcript text goes directly to the provider you select.</text>
+  </g>
+</svg>
+

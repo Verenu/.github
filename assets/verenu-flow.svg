@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 250" role="img" aria-labelledby="title desc">
+  <title id="title">How Verenu works</title>
+  <desc id="desc">Four steps: hold a hotkey, capture audio locally, transcribe and clean up, then paste text into the focused app.</desc>
+  <defs>
+    <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#594740" flood-opacity=".12"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#d97757"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="250" rx="26" fill="#f9f6f0"/>
+  <text x="52" y="43" fill="#2b2422" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">From thought to text</text>
+  <text x="52" y="68" fill="#7e7266" font-family="Segoe UI, Arial, sans-serif" font-size="13">A tiny loop that keeps you in the app you already use.</text>
+
+  <g transform="translate(52 98)" filter="url(#cardShadow)">
+    <rect width="228" height="110" rx="18" fill="#fffaf2" stroke="#eadfd5"/>
+    <circle cx="34" cy="34" r="17" fill="#f5d4c5"/>
+    <text x="34" y="40" text-anchor="middle" fill="#a54532" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">01</text>
+    <text x="22" y="72" fill="#2b2422" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">Hold the hotkey</text>
+    <text x="22" y="92" fill="#7e7266" font-family="Segoe UI, Arial, sans-serif" font-size="12">Start speaking without context switching.</text>
+  </g>
+
+  <path d="M290 153H332" fill="none" stroke="#d97757" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <g transform="translate(348 98)" filter="url(#cardShadow)">
+    <rect width="228" height="110" rx="18" fill="#fffaf2" stroke="#eadfd5"/>
+    <circle cx="34" cy="34" r="17" fill="#d8e6e2"/>
+    <text x="34" y="40" text-anchor="middle" fill="#376d6a" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">02</text>
+    <text x="22" y="72" fill="#2b2422" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">Capture locally</text>
+    <text x="22" y="92" fill="#7e7266" font-family="Segoe UI, Arial, sans-serif" font-size="12">Audio stays on device until you choose a provider.</text>
+  </g>
+
+  <path d="M586 153H628" fill="none" stroke="#d97757" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <g transform="translate(644 98)" filter="url(#cardShadow)">
+    <rect width="228" height="110" rx="18" fill="#fffaf2" stroke="#eadfd5"/>
+    <circle cx="34" cy="34" r="17" fill="#f2e1b8"/>
+    <text x="34" y="40" text-anchor="middle" fill="#96732b" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">03</text>
+    <text x="22" y="72" fill="#2b2422" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">Transcribe + clean</text>
+    <text x="22" y="92" fill="#7e7266" font-family="Segoe UI, Arial, sans-serif" font-size="12">Use local models or the providers you trust.</text>
+  </g>
+
+  <path d="M882 153H924" fill="none" stroke="#d97757" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <g transform="translate(940 98)" filter="url(#cardShadow)">
+    <rect width="208" height="110" rx="18" fill="#2b2422"/>
+    <circle cx="34" cy="34" r="17" fill="#c7553d"/>
+    <text x="34" y="40" text-anchor="middle" fill="#fffaf2" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">04</text>
+    <text x="22" y="72" fill="#fffaf2" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">Paste where you work</text>
+    <text x="22" y="92" fill="#d8c8be" font-family="Segoe UI, Arial, sans-serif" font-size="12">Text lands in your focused app.</text>
+  </g>
+</svg>
+

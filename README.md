@@ -12,7 +12,7 @@ It is one app, but the way it is built is the point, and it is the same way anyt
 
 ## What we want out of our software
 
-**Local by default.** Your data starts on your machine and stays there unless you decide otherwise. Local transcription is a real option, not a checkbox nobody finished. When something does leave your device, it goes straight to the provider you picked — never through a server of ours.
+**Local by default.** Your data starts on your machine and stays there unless you decide otherwise. Local transcription is a real option, not a checkbox nobody finished. When something does leave your device, it goes straight to the provider you picked, never through a server of ours.
 
 **A boundary you can explain.** If you cannot describe where your data goes in one sentence, we designed it wrong. "Private" is a claim; a documented boundary is a fact. Ours lives in [Data and privacy](https://github.com/MONKE2525E/Verenu/blob/master/docs/DATA_AND_PRIVACY.md).
 
@@ -50,6 +50,6 @@ It is one app, but the way it is built is the point, and it is the same way anyt
 
 ## Contributing
 
-Bug reports and documentation fixes are as welcome as code. If you are considering something large, open an issue first — not to gatekeep it, but so nobody spends a weekend on a direction we are about to change. Issues and pull requests belong on [the main repository](https://github.com/MONKE2525E/Verenu).
+Bug reports and documentation fixes are as welcome as code. If you are considering something large, open an issue first. Not to gatekeep it, but so nobody spends a weekend on a direction we are about to change. Issues and pull requests belong on [the main repository](https://github.com/MONKE2525E/Verenu).
 
 <sub>Open source under the MIT License.</sub>
